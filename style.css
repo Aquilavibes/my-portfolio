@@ -1,0 +1,405 @@
+@import url("https://fonts.googleleapis.com/css2?family=Poppins:wght@3;2;1");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-size: 15pt;
+    background-color: #1A1C33 ;
+}
+#mypics {
+  width: 280px;
+  height: 336px;
+  border-radius: 50%;
+  justify-items: center;
+  margin-left: 150px;
+  top: 1px;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+
+.nav {
+  
+  width: 500px;
+  position: fixed;
+  top: 0%;
+  display: flex;
+  inline: block;
+  top: 600px;
+  justify-content: space-around;
+  
+}
+
+.nav link{
+  color: white;;
+  padding: 5%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 14px 15px;
+  text-align: left;
+ 
+}
+
+.nav:hover {
+  color: blue;
+}
+
+.link {
+  background-color: #313FE1;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 20px;
+  text-decoration: none;
+  
+ 
+  
+}
+
+#propics1 {
+  width: 366px;
+  height: 450px;
+  margin-left: 450px;
+}
+
+.desc {
+  color: white;
+  text-align: center;
+}
+
+
+#propics2 {
+  width: 366px;
+  height: 450px;
+  margin-left: 450px;
+}
+
+
+#propics3 {
+  width: 366px;
+  height: 450px;
+  margin-left: 450px;
+}
+
+
+
+#propics4 {
+  width: 366px;
+  height: 450px;
+  margin-left: 450px;
+}
+
+.mypic {
+ display: flex; 
+ justify-content: center;
+ 
+  
+}
+
+.projectpics {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.progress {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  background: grey;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+.progress__fill1 {
+  width: 350px;
+  height: 100px;
+  background: #48BDC4;
+  text-align: right;
+  
+}
+label {
+  color: white;
+}
+
+.progress__fill2 {
+  width: 280px;
+  height: 100px;
+  background: #48BDC4;
+  text-align: right;
+  
+}
+
+.progress__fill3 {
+  width: 300px;
+  height: 100px;
+  background: #48BDC4;
+  text-align: right;
+  
+}
+
+.progress__fill4 {
+  width: 100px;
+  height: 100px;
+  background: #48BDC4;
+  text-align: right;
+  
+
+}
+
+.progress__fill5 {
+  width: 360px;
+  height: 100px;
+  background: #48BDC4;
+  text-align: right;
+  
+
+}
+.colorh2 {
+  text-align: center;
+  color: #48BDC4;
+}
+
+h2 {
+  color: #48BDC4;
+}
+
+p {
+  color: white;
+  font-size: 27px;
+  font-style: Georgia;
+}
+
+#HIRE {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  border-radius: 20px;
+  width: 60px;
+  text-decoration: none;
+}
+
+.CV {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  margin: 12px;
+  border-radius: 20px;
+  width: 40px;
+  justify-items: right;
+  text-decoration: none;
+}
+
+#form {
+  height: 46px;
+  width: 300px;
+  color: black;
+  font-size: 10px;
+}
+
+
+#formm {
+  height: 100px;
+  width: 300px;
+}
+
+.writeup {
+  text-align: left;
+  font-size: 22px;
+  animation: fadeIn 6s; 
+  margin-left: 30px;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    margin-left: 0px;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 30px;
+  }
+  
+}
+
+.writeupp {
+  text-align: left;
+  font-size: 18px;
+  animation: fadeIn 6s; 
+  margin-left: 30px;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    margin-left: 0px;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 30px;
+  }
+}
+.my-name {
+  margin-bottom: 1px;
+}
+
+.home-nav {
+  width: 590px;
+  position: fixed;
+  display: flex;
+  inline: block;
+  top: 50px;
+  justify-content: space-around;
+  
+}
+
+#abouty {
+  color: #48BDC4;
+  font-size: 40px;
+}
+
+.fade-inn {
+  animation: fadeinn 6s;
+  margin-left: 40px;
+}
+
+@keyframes fadeinn {
+  from {
+    opacity: 0;
+    margin-left: 0px;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 40px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .home-nav {
+    width: 500px;
+    position: fixed;
+    display: flex;
+    inline: block;
+    top: 800px;
+    justify-content: left;
+     
+  }
+  .nav {
+    width: 500px;
+    position: fixed;
+    display: flex;
+    inline: block;
+    top: 800px;
+    font-size: 18px;
+    float: left;
+    justify-content: left;
+
+  }
+
+  p {
+    font-size: 18px;
+  }
+  
+  .nav link {
+    background-color: #313FE1;
+    display: flex;
+    color: white;
+    padding: 14px 15px;
+    text-decoration: none;
+    text-align: left;
+    float: left;
+    text-align: left;
+  
+    
+
+  } 
+  
+  .link {
+    background-color: #313FE1;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+
+  } 
+
+  #propics1 {
+    width: 325px;
+    height: 450px;
+    margin-left: 40px;
+  }
+  
+  .desc {
+    color: white;
+    text-align: center;
+  }
+  
+  
+  #propics2 {
+    width: 325px;
+    height: 450px;
+    margin-left: 40px;
+  }
+  
+  
+  #propics3 {
+    width: 325px;
+    height: 450px;
+    margin-left: 40px;
+  }
+  
+  
+  
+  #propics4 {
+    width: 325px;
+    height: 450px;
+    margin-left: 40px;
+  }
+
+  #mypics {
+    width: 280px;
+    height: 336px;
+    border-radius: 50%;
+    justify-items: center;
+    margin-left: 150px;
+    top: 1px;
+  }
+
+  #btn {
+    background-color: #313FE1;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 20px;
+  text-decoration: none;
+  
+  }
+
+  .writeup {
+    text-align: left;
+    font-size: 19px;
+    animation: fadeIn 6s; 
+    margin-left: 30px;
+  
+  }
+  
+}
+  
