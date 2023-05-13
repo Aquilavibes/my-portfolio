@@ -303,7 +303,7 @@ p {
     position: fixed;
     display: flex;
     inline: block;
-    top: 0px;
+    top: 990px;
     font-size: 18px;
     float: left;
     justify-content: left;
