@@ -303,10 +303,11 @@ p {
     position: fixed;
     display: flex;
     inline: block;
-    top: 990px;
+    top: 566px;
     font-size: 18px;
     float: left;
     justify-content: left;
+    top: 1%;
 
   }
 
