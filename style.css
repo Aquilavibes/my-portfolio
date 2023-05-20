@@ -292,7 +292,7 @@ p {
   .home-nav {
     height: 400px;
     width: 500px;
-    position: absolute;
+    position: fixed;
     display: flex;
     inline: block;
     top: 568px;
@@ -302,7 +302,7 @@ p {
   .nav {
     height: 400px;
     width: 500px;
-    position: absolute;
+    position: fixed;
     display: flex;
     inline: block;
     top: 568px;
