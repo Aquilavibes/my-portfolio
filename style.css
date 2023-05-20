@@ -290,20 +290,22 @@ p {
 
 @media (max-width: 500px) {
   .home-nav {
+    height: 400px;
     width: 500px;
     position: fixed;
     display: flex;
     inline: block;
-    top: 577px;
+    top: 568px;
     justify-content: left;
      
   }
   .nav {
+    height: 400px;
     width: 500px;
     position: fixed;
     display: flex;
     inline: block;
-    top: 577px;
+    top: 568px;
     font-size: 18px;
     float: left;
     justify-content: left;
