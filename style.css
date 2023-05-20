@@ -295,7 +295,7 @@ p {
     position: fixed;
     display: flex;
     inline: block;
-    top: 568px;
+    top: 530px;
     justify-content: left;
      
   }
@@ -305,7 +305,7 @@ p {
     position: fixed;
     display: flex;
     inline: block;
-    top: 568px;
+    top: 530px;
     font-size: 18px;
     float: left;
     justify-content: left;
