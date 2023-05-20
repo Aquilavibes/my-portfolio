@@ -292,7 +292,7 @@ p {
   .home-nav {
     height: 400px;
     width: 500px;
-    position: sticky;
+    position: fixed;
     display: flex;
     inline: block;
     top: 568px;
@@ -309,7 +309,7 @@ p {
     font-size: 18px;
     float: left;
     justify-content: left;
-    top: 1%;
+    
 
   }
 
